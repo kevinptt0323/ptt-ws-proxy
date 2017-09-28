@@ -1,0 +1,11 @@
+{
+  "name": "ptt-ws-proxy",
+  "version": "0.0.1",
+  "description": "A Proxy Server for PTT over WebSocket",
+  "main": "index.js",
+  "author": "Kevin Lin",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.16.2"
+  }
+}
