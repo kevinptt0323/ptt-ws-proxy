@@ -1,6 +1,6 @@
 {
   "name": "ptt-ws-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Proxy Server for PTT over WebSocket",
   "main": "index.js",
   "bin": "index.js",
