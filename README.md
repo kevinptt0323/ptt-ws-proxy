@@ -3,7 +3,7 @@ A Proxy Server for PTT over WebSocket.
 
 ## Run Server
 ```
-> node .
+> ./index.js
 listening on 127.0.0.1:9770
 ```
 
