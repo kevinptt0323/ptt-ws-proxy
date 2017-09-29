@@ -1,9 +1,20 @@
 # ptt-ws-proxy
 A Proxy Server for PTT over WebSocket.
 
-## Run Server
+## Install and Run
+
+1. Via git
 ```
+> git clone https://github.com/kevinptt0323/ptt-ws-proxy.git
+> cd ptt-ws-proxy
 > ./index.js
+listening on 127.0.0.1:9770
+```
+
+2. Via package manager
+```
+> npm install ptt-ws-proxy -g
+> ptt-ws-proxy
 listening on 127.0.0.1:9770
 ```
 
