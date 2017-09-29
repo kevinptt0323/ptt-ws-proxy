@@ -28,4 +28,7 @@ proxyServer
   .on('listening', () => {
     logging(`listening on ${config.server.host}:${config.server.port}`);
   })
+  .on('error', (err) => {
+    logging(err);
+  });
 ;
