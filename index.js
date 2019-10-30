@@ -10,7 +10,7 @@ const proxy = httpProxy.createProxyServer({
   ws: true,
   changeOrigin: true,
   headers: {
-    origin: 'https://www.ptt.cc',
+    origin: 'app://pcman',
   },
 }).listen(config.server);
 
